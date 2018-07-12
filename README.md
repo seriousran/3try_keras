@@ -9,6 +9,9 @@ conda install scipy
 conda install spyder
 pip install tensorflow 
 pip install pyyaml h5py
-pip install keras
+#pip install keras <- old version. therefore, higher versions of keras-application and keras-preprocesssing are not compatible
+git clone https://github.com/keras-team/keras.git
+cd keras
+sudo python setup.py install
 pip install opencv-python
 pip install matplotlib seaborn argparses
