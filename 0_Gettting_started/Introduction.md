@@ -35,12 +35,12 @@
     - seed: 랜덤 시드로 사용할 정수
     
 - 배치 정규화: 학습 속도를 더 빠르게 하고 일반적으로 더 나은 정확도를 달성하는 방법
-Activation function
+#### Activation function
 - Sigmoid
 - Linear
 - tanh (hyperbolic tangent)
 - ReLU (Rectified Linear Unit)
-Loss Function (=Cost Function)
+#### Loss Function (=Cost Function)
 - Accuracy: for a Classification problem
   - binary_accuracy: 이진 분류 문제의 모든 예측에서 평균 정확도 비율
   - categorical_accuracy: 다범주 분류 문제의 모든 예측에서 평균 정확도 비율
@@ -58,6 +58,6 @@ Loss Function (=Cost Function)
 - categorical hinge
   - using categorical_crossentropy
   - using binary_crossentropy
-metrics: 메트릭 함수는 목적 함수(objective function)와 유사하다. 유일한 차이점은 모델을 학습할 때 메트릭을 평가한 결과를 사용하지 않는다는 점이다.
-optimizer: SGD, RMSprop, Adam   
+#### metrics: 메트릭 함수는 목적 함수(objective function)와 유사하다. 유일한 차이점은 모델을 학습할 때 메트릭을 평가한 결과를 사용하지 않는다는 점이다.
+#### optimizer: SGD, RMSprop, Adam   
 
