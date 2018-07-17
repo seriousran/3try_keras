@@ -58,6 +58,7 @@
 - categorical hinge
   - using categorical_crossentropy
   - using binary_crossentropy
-#### metrics: 메트릭 함수는 목적 함수(objective function)와 유사하다. 유일한 차이점은 모델을 학습할 때 메트릭을 평가한 결과를 사용하지 않는다는 점이다.
-#### optimizer: SGD, RMSprop, Adam   
-
+#### metrics
+- 메트릭 함수는 목적 함수(objective function)와 유사하다. 유일한 차이점은 모델을 학습할 때 메트릭을 평가한 결과를 사용하지 않는다는 점이다.
+#### optimizer
+= SGD, RMSprop, Adam
