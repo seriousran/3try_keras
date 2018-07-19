@@ -2,6 +2,7 @@
 
 ## Keras w/tensorFlow Installation
 
+```shell
 conda create --name tensorflow35 python=3.5
 conda activate tensorflow35
 conda install jupyter
@@ -15,5 +16,6 @@ cd keras
 sudo python setup.py install
 pip install opencv-python
 pip install matplotlib seaborn argparses
+```
 
 ## Deep Learning with Keras - Antonio Gulli & Sujit Pal
