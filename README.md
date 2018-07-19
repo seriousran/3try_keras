@@ -1,4 +1,4 @@
-# 3try_kera
+# Try, Try, Try. 3try_keras
 
 ## Keras w/tensorFlow Installation
 
@@ -15,3 +15,5 @@ cd keras
 sudo python setup.py install
 pip install opencv-python
 pip install matplotlib seaborn argparses
+
+## Deep Learning with Keras - Antonio Gulli & Sujit Pal
