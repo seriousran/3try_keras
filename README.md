@@ -4,7 +4,7 @@
 
 ```shell
 conda create --name tensorflow35 python=3.5
-conda activate tensorflow35
+source activate tensorflow35
 conda install jupyter
 conda install scipy
 conda install spyder
